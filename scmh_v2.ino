@@ -1,3 +1,6 @@
+/*
+* Classe que representa a leitura de dados
+*/
 class LeituraDados {
   private:
   
@@ -12,6 +15,9 @@ class LeituraDados {
   void setValor(int v){_valor = v;}
 };
 
+/*
+* Classe que represnta os dados de um hidrometro
+*/
 class HidrometroDados {
   private:
   
@@ -33,6 +39,9 @@ class HidrometroDados {
   
 };
 
+/*
+* Classe que representa um hidrometro
+*/
 class Hidrometro {
   private:
 
@@ -95,9 +104,13 @@ class EconomiaDados {
   void setDados(HidrometroDados v){_hidrometroDados = v;}
 };
 
+/*
+* Classe que representa os dados de um Imovel
+*/
 class ImovelDados {
   private:
   
+  // Matrivula do imovel
   String _matricula = "";
   
   public:
@@ -106,6 +119,9 @@ class ImovelDados {
   void setmatricula(String v){_matricula = v;}
 };
 
+/*
+* Classe que represnta os dados de uma fatura
+*/
 class FaturaDados {
   private:
 
@@ -149,6 +165,9 @@ class Economia {
   void setHidrometro(Hidrometro v){_hidrometro = v;}
 };
 
+/*
+* Classe que representa um imóvel
+*/
 class Imovel {
   private:
 
